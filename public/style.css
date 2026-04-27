@@ -1,0 +1,20 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  background: #fff5f5;
+}
+
+h1 {
+  color: #d2691e;
+}
+
+#items {
+  margin: 20px;
+}
+
+.item {
+  background: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
