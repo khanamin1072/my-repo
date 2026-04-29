@@ -1,36 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
   <title>Bakery Outlet</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>🍰 Bakery Outlet</h1>
 
-  <div id="items"></div>
+  <header class="header">
+    <h1 class="logo">🍰 Bakery Outlet</h1>
+    <p class="tagline">Fresh • Sweet • Delicious</p>
+  </header>
 
-  <h2>Add New Item</h2>
-  <input id="name" placeholder="Item name">
-  <input id="price" placeholder="Price">
-  <button onclick="addItem()">Add</button>
+  <main class="container">
 
-  <script src="script.js"></script>
-</body>
-</html><!DOCTYPE html>
-<html>
-<head>
-  <title>Bakery Outlet</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <h1>🍰 Bakery Outlet</h1>
+    <section class="items-section">
+      <h2>Our Items</h2>
+      <div id="items" class="items-grid"></div>
+    </section>
 
-  <div id="items"></div>
+    <section class="form-section">
+      <h2>Add New Item</h2>
+      <div class="form-card">
+        <input id="name" placeholder="Item name" />
+        <input id="price" placeholder="Price" />
+        <button onclick="addItem()">➕ Add Item</button>
+      </div>
+    </section>
 
-  <h2>Add New Item</h2>
-  <input id="name" placeholder="Item name">
-  <input id="price" placeholder="Price">
-  <button onclick="addItem()">Add</button>
+  </main>
 
   <script src="script.js"></script>
 </body>
