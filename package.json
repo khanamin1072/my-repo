@@ -6,6 +6,7 @@
     "start": "node server.js"
   },
   "dependencies": {
+    "docker": "^1.0.0",
     "express": "^4.22.1"
   }
 }
