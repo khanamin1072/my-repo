@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bakery Outlet</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <h1 class="logo">🍰 Bakery Outlet</h1>
+    <p class="tagline">Fresh • Sweet • Delicious</p>
+  </header>
+
+  <main class="container">
+
+    <section class="items-section">
+      <h2>Our Items</h2>
+      <div id="items" class="items-grid"></div>
+    </section>
+
+    <section class="form-section">
+      <h2>Add New Item</h2>
+      <div class="form-card">
+        <input id="name" placeholder="Item name" />
+        <input id="price" placeholder="Price" />
+        <button onclick="addItem()">➕ Add Item</button>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
